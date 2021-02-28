@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimateGem : MonoBehaviour
 {
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.Rotate(2, 2, 2);
     }
